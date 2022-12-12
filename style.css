@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1670512323816-2acef75b51c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80) bottom no-repeat;
+    background-size: cover;
+}
+header h1{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: black;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+article{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.article-meta > a, article a h2{
+    color: gray;
+    text-decoration: none;
+}
+
+article > img{
+    height: 300px;
+    width: 450px;
+}
+
+article:nth-child(2n){
+    background-color: aquamarine;
+}
+
+.before a h2::before{
+    content: "New: ";
+    color: blue;
+}
